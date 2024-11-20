@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff;
+}
+
+.background {
+    background: url('../images/fundo.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    color: #32CD32; /* Verde limão */
+}
+
+header {
+    background-color: #32CD32; /* Verde limão */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #ffffff; /* Branco */
+}
+
+nav a {
+    color: #ffffff; /* Branco */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    color: #ffffff; /* Branco */
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilização da tabela de estoque */
+.tabela-estoque {
+    margin: 20px auto; /* Centraliza horizontalmente */
+    border-collapse: separate;
+    border-spacing: 30px 15px; /* Afasta os produtos das quantidades e entre linhas */
+    width: 80%; /* Ajusta o tamanho da tabela */
+    text-align: center; /* Centraliza o texto */
+}
+
+.tabela-estoque th {
+    color: #ffffff; /* Branco */
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #32CD32; /* Verde limão */
+}
+
+.tabela-estoque td {
+    color: #ffffff; /* Branco */
+    font-size: 1em;
+    padding: 10px;
+}
+
+.tabela-estoque tr:nth-child(odd) {
+    background-color: rgba(50, 205, 50, 0.2); /* Cor de fundo para linhas ímpares */
+}
+
+.tabela-estoque tr:nth-child(even) {
+    background-color: rgba(50, 205, 50, 0.1); /* Cor de fundo para linhas pares */
+}
+
+/* Estilização do formulário de cadastro */
+.form-cadastro {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 20px auto;
+    max-width: 350px; /* Limita a largura do formulário */
+    background-color: rgba(50, 205, 50, 0.2); /* Fundo transparente com verde claro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Rótulo acima do campo */
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 1em;
+    color: #ffffff; /* Branco */
+    margin-bottom: 5px;
+    text-align: left; /* Alinha os textos à esquerda */
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #32CD32; /* Borda verde limão */
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #32CD32; /* Verde limão */
+    color: #ffffff; /* Branco */
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #28a745; /* Verde um pouco mais escuro */
+}

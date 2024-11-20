@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Produtos - FarmECHO</title>
+    <link rel="stylesheet" href="C:\Users\Luiz\OneDrive - AVS CLOUD 360 SOLUCOES DIGITAIS\Área de Trabalho\FARMECHO 2\wwwroot\css\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <h1>FarmECHO</h1>
+            <nav>
+                <a href="C:\Users\Luiz\OneDrive - AVS CLOUD 360 SOLUCOES DIGITAIS\Área de Trabalho\FARMECHO 2\Views\Home\Index.html">Home</a>
+                <a href="C:\Users\Luiz\OneDrive - AVS CLOUD 360 SOLUCOES DIGITAIS\Área de Trabalho\FARMECHO 2\Views\Produtos\Index.html">Venda de Produtos</a>
+                <a href="C:\Users\Luiz\OneDrive - AVS CLOUD 360 SOLUCOES DIGITAIS\Área de Trabalho\FARMECHO 2\Views\Estoque\Index.html">Estoque</a>
+                <a href="C:\Users\Luiz\OneDrive - AVS CLOUD 360 SOLUCOES DIGITAIS\Área de Trabalho\FARMECHO 2\Views\Produtos\Create.html">Cadastro de Produtos</a>
+                <a href="C:\Users\Luiz\OneDrive - AVS CLOUD 360 SOLUCOES DIGITAIS\Área de Trabalho\FARMECHO 2\Views\Clientes\Create.html">Cadastro de Clientes</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Venda de Produtos</h2>
+            <form action="C:\Users\Luiz\OneDrive - AVS CLOUD 360 SOLUCOES DIGITAIS\Área de Trabalho\FARMECHO 2\Views\Produtos\Index.html" method="POST">
+                <label for="produto">Produto:</label>
+                <select id="produto" name="produto" required>
+                    <option value="produto0">-selecione um produto-</option>
+                    <option value="produto1">Banana</option>
+                    <option value="produto2">Cenoura</option>
+                    <option value="produto3">Maçã</option>
+                    <option value="produto4">Morango</option>
+                    <option value="produto5">Tomate</option>
+                </select>
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" required>
+                <button type="submit">Realizar Venda</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
